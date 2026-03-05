@@ -26,8 +26,9 @@ The CNN architecture includes:
 - Softmax Output Layer
 
 Architecture Flow:
+
 Input → Conv2D → ReLU → MaxPool → Conv2D → ReLU → MaxPool → Flatten → Dense → Dropout → Softmax
----
+
 
 ## Model Performance 
 **Test Accuracy:** **74.71%**  
@@ -42,5 +43,6 @@ Achieving 74.71% accuracy demonstrates strong baseline CNN implementation on CIF
 - Matplotlib
 - Scikit-learn
 - Jupyter Notebook
+
 
 
